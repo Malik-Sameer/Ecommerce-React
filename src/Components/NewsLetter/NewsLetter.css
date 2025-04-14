@@ -1,0 +1,82 @@
+.newletter{
+    width: 80%;
+    min-height: 40vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    padding: 50px 140px;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    background: linear-gradient(180deg,#fde1ff 0%,#e1ffea22 60%);
+    gap: 15px;
+}
+.newletter h1{
+    color:#454545;
+    font-size: 35px;
+    font-weight: 600;
+    line-height: 0.8;
+
+}
+.newletter p{
+    color: #454545;
+    font-size: 16px;
+}
+.newletter div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: white;
+    width: 100%;
+    height: 70px;
+    border-radius: 80px;
+    border: 1px solid #e3e3e3 ;
+}
+.newletter input{
+    width: 500px;
+    margin-left: 30px;
+    border: none;
+    outline: none;
+    color: #616161;
+    font-size: 14px;
+    font-family: Poppins;
+}
+.newletter div button{
+    width: 26.5%;
+    height: 70px;
+    border-radius: 80px;
+    background: black;
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+}
+@media screen and (max-width: 1000px){
+    .newletter div button{
+        width: 150%;
+    }
+}
+@media screen and (max-width: 700px){
+    .newletter{
+        padding: 50px 30px;
+    }
+    .newletter div button {
+        width: 70%;
+    }
+
+}
+@media screen and (max-width: 360px){
+    .newletter h1{
+        font-size: 24px;
+    }
+    .newletter p{
+        font-size: 14px;
+    }
+    .newletter div input{
+        width: 100%;
+    }
+        .newletter {
+        padding: 50px 0px;
+    }
+    
+}
