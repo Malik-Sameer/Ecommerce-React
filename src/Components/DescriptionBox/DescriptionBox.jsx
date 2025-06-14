@@ -7,9 +7,9 @@ const DescriptionBox = () => {
             <div className="descriptionbox-nav-box">
                 Description
             </div>
-            <div className="descriptionbox-nav-box fade">
+            {/* <div className="descriptionbox-nav-box fade">
                 Reviews (122)
-            </div>
+            </div> */}
         </div>
         <div className="descriptionbox-description">
             <p>Experience the convenience of premium online shopping with our carefully curated collection. We pride ourselves on offering high-quality products at competitive prices, backed by excellent customer service and fast shipping. Our easy-to-navigate website, secure payment system, and hassle-free return policy ensure a smooth shopping experience.</p>

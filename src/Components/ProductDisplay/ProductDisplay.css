@@ -1,6 +1,7 @@
 .productdisplay{
     display: flex;
     margin: 0 30px;
+    margin-top: 30px;
 }
 .productdisplay-left{
     display: flex;
@@ -85,4 +86,17 @@
 }
 .productdisplay-right-category span{
     font-weight: 600;
+}
+.size-box {
+  padding: 10px 20px;
+  border: 1px solid #000;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  user-select: none;
+}
+
+.size-box.active {
+  background-color: black;
+  color: white;
 }
